@@ -8,7 +8,7 @@ import goodtimes from '../img/goodtimes-small.png';
 import castaway from '../img/castaway.jpg';
 //Animations
 import { motion } from 'framer-motion';
-import { pageAnimation } from '../animations';
+import { pageAnimation } from '../animation';
 
 const OurWork = () => {
     return(
