@@ -97,3 +97,21 @@ export const scrollReveal = {
         }
     },
 };
+
+export const imageSlide = {
+    hidden: {
+        opacity: 1,
+        x: -300,
+        transition: {
+            duration: 1,
+        },
+    },
+    show: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            ease: 'easeOut',
+            duration: 2,
+        },
+    },
+};
