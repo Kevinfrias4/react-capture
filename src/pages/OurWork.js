@@ -10,6 +10,7 @@ import castaway from '../img/castaway.jpg';
 import { motion } from 'framer-motion';
 import { imageSlide, slider, sliderContainer, pageAnimation, fade, photoAnim, lineAnim } from '../animation';
 import { useScroll } from '../components/useScroll';
+import ScrollTop from '../components/ScrollTop';
 
 const OurWork = () => {
 
@@ -61,6 +62,7 @@ const OurWork = () => {
                     <img src={castaway} alt="castaway"/>
                 </Link>
             </Movie>
+            <ScrollTop />
         </Work>
     );
 }
