@@ -1,7 +1,7 @@
 export const pageAnimation = {
     hidden: {
         opacity: 0,
-        y: 300
+        y: -300
     },
     show: {
         opacity: 1,
@@ -103,7 +103,7 @@ export const imageSlide = {
         opacity: 1,
         x: -300,
         transition: {
-            duration: 1,
+            duration: 2,
         },
     },
     show: {
@@ -111,7 +111,7 @@ export const imageSlide = {
         x: 0,
         transition: {
             ease: 'easeOut',
-            duration: 2,
+            duration: 1.5,
         },
     },
 };
